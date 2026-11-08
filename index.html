@@ -1,11 +1,72 @@
 <!doctype html>
 <html lang="de">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#211407">
 <title>Gib einen aus! 🍺</title>
 <style>
-:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#fff5d8;background:#1d1209}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#64400e 0,#24160a 55%,#160f0b 100%);min-height:100vh}.wrap{max-width:760px;margin:auto;padding:32px 18px 70px;text-align:center}h1{font-size:clamp(2.5rem,9vw,5rem);margin:10px 0;color:#ffc83e;text-shadow:3px 4px #6a260a;line-height:1.06}h2{color:#ffd16b}p{line-height:1.55}.subtitle{font-size:clamp(1.35rem,5vw,2.2rem);font-weight:800;margin:15px 0}.beer{font-size:clamp(110px,32vw,220px);filter:drop-shadow(0 12px 20px #0009);margin:12px 0;line-height:1.2;animation:cheers 3s ease-in-out infinite}@keyframes cheers{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}.panel{background:#392613;border:2px solid #90611e;border-radius:22px;padding:23px 18px;margin:24px 0;box-shadow:0 12px 30px #0004}.gold{color:#ffcf4b}.button{display:inline-block;background:#ffcb37;color:#261704;padding:15px 24px;border-radius:14px;font-weight:900;text-decoration:none;border:0;font-size:1.1rem}.disabled{opacity:.7;cursor:not-allowed}.note{font-size:.93rem;color:#e7d2ac}.sample{background:#4a311b;padding:15px;border-radius:14px;text-align:left;margin:12px 0}.sample strong{color:#ffcf4b}footer{color:#c5af8c;font-size:.85rem;margin-top:36px}
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#fff5d8;background:#1d1209}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#64400e 0,#24160a 55%,#160f0b 100%);min-height:100vh}.wrap{max-width:760px;margin:auto;padding:32px 18px 70px;text-align:center}h1{font-size:clamp(2.5rem,9vw,5rem);margin:10px 0;color:#ffc83e;text-shadow:3px 4px #6a260a;line-height:1.06}h2{color:#ffd16b}p{line-height:1.55}.subtitle{font-size:clamp(1.35rem,5vw,2.2rem);font-weight:800;margin:15px 0}.beer{font-size:clamp(110px,32vw,220px);filter:drop-shadow(0 12px 20px #0009);margin:12px 0;line-height:1.2;animation:cheers 3s ease-in-out infinite}@keyframes cheers{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}.panel{background:#392613;border:2px solid #90611e;border-radius:22px;padding:23px 18px;margin:24px 0;box-shadow:0 12px 30px #0004}.gold{color:#ffcf4b}.button{display:inline-block;background:#ffcb37;color:#261704;padding:15px 24px;border-radius:14px;font-weight:900;text-decoration:none;border:0;font-size:1.1rem;cursor:pointer}.button:disabled{opacity:.7;cursor:not-allowed}.note{font-size:.93rem;color:#e7d2ac}.sample{background:#4a311b;padding:15px;border-radius:14px;text-align:left;margin:12px 0;overflow-wrap:anywhere}.sample strong{color:#ffcf4b}footer{color:#c5af8c;font-size:.85rem;margin-top:36px}.guest-form{display:grid;gap:12px;text-align:left}.guest-form input,.guest-form textarea{width:100%;padding:13px;border-radius:10px;border:1px solid #90611e;font:inherit;background:#fff9ec;color:#211407}.guest-form label{font-weight:700}
 </style>
 </head>
-<body><main class="wrap"><div style="font-size:1.1rem;letter-spacing:.16em;font-weight:900">🍻 WILLKOMMEN BEIM BIER-PROJEKT 🍻</div><h1>GIB EINEN AUS!</h1><div class="subtitle">Und ich trinke auf dich!</div><div class="beer" role="img" aria-label="Großes volles Bierglas">🍺</div><p>Du hast meinen QR-Code entdeckt!<br>Das allein ist schon fast ein Bier wert. 😁</p><section class="panel"><h2>🍻 Spendier mir ein Bier</h2><p>Ein kleiner Gruß, ein großes Prost – du entscheidest!</p><button class="button disabled" disabled>🍺 PayPal – folgt demnächst</button><p class="note">Die Zahlungsfunktion ist noch nicht eingerichtet. Hier kann derzeit kein Geld gesendet werden.</p></section><section class="panel"><h2>✍️ Das Bier-Gästebuch</h2><p>Hier sollen später alle Besucher einen Gruß oder einen lustigen Spruch hinterlassen können – auch ohne etwas zu bezahlen.</p><div class="sample"><strong>Beispiel: Der unbekannte Bierfreund</strong><p>„Hopfen und Malz – Gott erhalt's! 🍻“</p></div><p class="note">Dies ist ein Mustereintrag. Das echte Gästebuch wird später freigeschaltet.</p></section><section class="panel"><h2>🏆 Die Spender-Wand</h2><p>Hier bekommen später ausschließlich bestätigte Unterstützer einen Platz – auf Wunsch auch anonym.</p><p class="note">Noch keine Zahlungen möglich. Keine echten Spenderdaten vorhanden.</p></section><section class="panel"><h2>🎥 Mein persönliches Prost</h2><p>Später gibt es hier nach bestätigter Unterstützung ein Dankeschön-Video von mir mit erhobenem Bierglas!</p></section><footer>Ein privates Spaßprojekt in Vorbereitung. Keine Zahlungsabwicklung aktiv. 🍺</footer></main></body></html>
+<body><main class="wrap">
+<div style="font-size:1.1rem;letter-spacing:.16em;font-weight:900">🍻 WILLKOMMEN BEIM BIER-PROJEKT 🍻</div>
+<h1>GIB EINEN AUS!</h1><div class="subtitle">Und ich trinke auf dich!</div>
+<div class="beer" role="img" aria-label="Großes volles Bierglas">🍺</div>
+<p>Du hast meinen QR-Code entdeckt!<br>Das allein ist schon fast ein Bier wert. 😁</p>
+<section class="panel"><h2>🍻 Spendier mir ein Bier</h2><p>Ein kleiner Gruß, ein großes Prost – du entscheidest!</p><button class="button" disabled>🍺 PayPal – folgt demnächst</button><p class="note">Die Zahlungsfunktion ist noch nicht eingerichtet. Hier kann derzeit kein Geld gesendet werden.</p></section>
+<section class="panel" id="gaestebuch-live">
+<h2>✍️ Das Bier-Gästebuch</h2><p>Hinterlasse einen Gruß – auch ohne etwas zu bezahlen! Dein Eintrag wird erst nach meiner Freigabe öffentlich sichtbar.</p>
+<form id="guest-form" class="guest-form">
+<label for="guest-name">Dein Name oder Spitzname</label><input id="guest-name" maxlength="60" required>
+<label for="guest-message">Dein Gruß</label><textarea id="guest-message" maxlength="500" required rows="4"></textarea>
+<button class="button" type="submit">🍻 Gruß eintragen</button><p id="guest-status" class="note" role="status"></p>
+</form>
+<h3 class="gold">Freigegebene Grüße</h3><div id="guest-entries" aria-live="polite">Einträge werden geladen …</div>
+</section>
+<section class="panel"><h2>🏆 Die Spender-Wand</h2><p>Hier bekommen später ausschließlich bestätigte Unterstützer einen Platz – auf Wunsch auch anonym.</p><p class="note">Noch keine Zahlungen möglich. Keine echten Spenderdaten vorhanden.</p></section>
+<section class="panel"><h2>🎥 Mein persönliches Prost</h2><p>Später gibt es hier nach bestätigter Unterstützung ein Dankeschön-Video von mir mit erhobenem Bierglas!</p></section>
+<footer>Ein privates Spaßprojekt in Vorbereitung. Keine Zahlungsabwicklung aktiv. 🍺</footer>
+</main>
+<script>
+(() => {
+  const API = 'https://ipvgikposcbwpbwehpbw.supabase.co/rest/v1/gaestebuch';
+  const KEY = 'sb_publishable_9_cje1CsYa1WjgByeiLolQ_tablDBPZ';
+  const headers = { apikey: KEY, 'Content-Type': 'application/json' };
+  const status = document.getElementById('guest-status');
+  const entries = document.getElementById('guest-entries');
+  async function loadEntries() {
+    try {
+      const response = await fetch(API + '?select=name,message,created_at&order=created_at.desc&limit=50', {headers});
+      if (!response.ok) throw new Error('Einträge konnten nicht geladen werden (' + response.status + ').');
+      const data = await response.json();
+      entries.replaceChildren();
+      if (!data.length) { entries.textContent = 'Noch keine freigegebenen Grüße – mach den Anfang!'; return; }
+      for (const item of data) {
+        const box = document.createElement('div'); box.className = 'sample';
+        const name = document.createElement('strong'); name.textContent = item.name || 'Bierfreund';
+        const message = document.createElement('p'); message.textContent = item.message || '';
+        box.append(name, message); entries.append(box);
+      }
+    } catch (error) { entries.textContent = 'Das Gästebuch konnte gerade nicht geladen werden. Bitte später erneut versuchen.'; console.error(error); }
+  }
+  document.getElementById('guest-form').addEventListener('submit', async event => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const button = form.querySelector('button');
+    const name = document.getElementById('guest-name').value.trim();
+    const message = document.getElementById('guest-message').value.trim();
+    if (!name || !message) { status.textContent = 'Bitte Name und Gruß eingeben.'; return; }
+    button.disabled = true; status.textContent = 'Dein Gruß wird gespeichert …';
+    try {
+      const response = await fetch(API, {method:'POST', headers:{...headers,Prefer:'return=minimal'}, body:JSON.stringify({name,message})});
+      if (!response.ok) throw new Error('Speichern fehlgeschlagen (' + response.status + ').');
+      form.reset(); status.textContent = '🍻 Prost! Dein Gruß wurde gespeichert und wartet auf meine Freigabe.';
+      await loadEntries();
+    } catch(error) { status.textContent = 'Das Speichern hat leider nicht geklappt. Bitte versuche es später erneut.'; console.error(error); }
+    finally { button.disabled = false; }
+  });
+  loadEntries();
+})();
+</script>
+</body></html>
